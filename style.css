@@ -1,12 +1,11 @@
 body {
-    font-family: "Lato", sans-serif;
-}
-.container {
+    font-family: "Assistant", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
+    background-image: linear-gradient(to bottom left, #E3FDF5, #FFE6FA);
 }
 h1 {
     font-size: 5vw;
