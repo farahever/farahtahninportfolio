@@ -5,9 +5,37 @@ body {
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom left, #fffcdc, #d9a7c7);
+    background-image: linear-gradient(to bottom left, #fffcdc, #E8CBC0);
+    letter-spacing: .07em;
 }
 h1 {
     font-size: 5vw;
 }
+.custom-button {
+    font-size: 1em;
+    padding: 1em 2em;
+    width: 25%;
+    background-color: #e1bbae;
+    margin: .5em;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+  .custom-button {
+    padding: 1em 2em;
+    font-size: 1em;
+    width: 80%; /* Takes 80% of its container */
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-button {
+    padding: 1em 2em;
+    font-size: 1em;
+    width: 80%; /* Full width on mobile */
+    display: block; /* Makes it take full width */
+  }
+}
+
+
 
