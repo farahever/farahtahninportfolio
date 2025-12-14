@@ -1,23 +1,43 @@
 body {
     font-family: "Assistant", sans-serif;
+    font-weight: normal;
+    font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom left, #fffcdc, #E8CBC0);
+    /*background-image: linear-gradient(to bottom right, #fffcdc, #e5f3fd);*/
     letter-spacing: .07em;
 }
 h1 {
     font-size: 5vw;
 }
-.custom-button {
+.custom-button-linkedin {
+    text-decoration: none;
     font-size: 1em;
-    padding: 1em 2em;
-    width: 25%;
-    background-color: #e1bbae;
+    padding: .5em 2em;
+    width: 30%;
+    background-image: linear-gradient(#4052D6, #0000FF);
     margin: .5em;
     align-items: center;
+    border-radius: 3em;
+    color: white;
+    box-shadow: 0em 0.625rem 1.875rem 0rem rgba(37,37,37,0.5);
+    font-family: "Assistant", sans-serif;
+}
+.custom-button-email {
+    text-decoration: none;
+    font-size: 1em;
+    padding: .5em 2.5em;
+    width: 30%;
+    background-image: linear-gradient(#4052D6, #0000FF);
+    margin: .5em;
+    align-items: center;
+    border-radius: 3em;
+    color: white;
+    box-shadow: 0em 0.625rem 1.875rem 0rem rgba(37,37,37,0.5);
+    font-family: "Assistant", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -35,6 +55,12 @@ h1 {
     width: 80%; /* Full width on mobile */
     display: block; /* Makes it take full width */
   }
+}
+.heading {
+  font-weight: normal;
+}
+ul {
+  list-style-type: "▪ ";
 }
 
 
