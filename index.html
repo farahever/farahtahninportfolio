@@ -10,21 +10,18 @@
     <title>Home | Farah Tahnin</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1 class= "heading">Welcome, please take a seat.</h1>
-    <h2 class= "heading">Who am I? </h2>
+    <h2 class= "heading">About Me</h2>
     <ul>
         <li>My name is Farah Tahnin</li>
         <li>Born and raised in Michigan, USA</li>
         <li>Loves 
-                <!-- <div>spending time with friends and family</div>
-                <div>beach</div> 
-                <div>nature lover</div> 
-                <div>trying new cafes</div> -->
+                <span class="autoType"></span>
         </li>
         <li>Lifetime Learner</li>
     </ul>
-    <h2 class= "heading">What do I do?</h2>
+    <h2 class= "heading">Job Title</h2>
     <ul>
         <li>Security Engineer / Platform Engineer @ Ford Motor Company</li>
     </ul>
@@ -35,5 +32,14 @@
     <a class="custom-button-email" href="mailto:ftahnin44@gmail.com">Email
     </a>
     </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('.autoType', {
+      strings: ["spending time with friends and family", "beach", "nature lover", "trying new cafes"],
+      typeSpeed: 50,
+      backSpeed: 50,
+      looped: true
+    });
+  </script>
 </body>
 </html>
