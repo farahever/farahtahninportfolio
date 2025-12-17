@@ -80,21 +80,57 @@ ul {
   list-style-type: "▪ ";
 }
 
-
-@media (max-width: 768px) {
-  .custom-button {
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+    .custom-button-email {
     padding: 1em 2em;
     font-size: 1em;
     width: 80%; /* Takes 80% of its container */
+    margin-left: .25em;
+    margin-top: .75em;
+    display: inline-block;
+  }
+   .custom-button-linkedin {
+    padding: 1em 2em;
+    font-size: 1em;
+    width: 80%; /* Takes 80% of its container */
+    margin-left: .25em;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-button-email {
+    padding: 1em 2em;
+    font-size: 1em;
+    width: 80%; /* Takes 80% of its container */
+    margin-left: .25em;
+    margin-top: .75em;
+    display: inline-block;
+  }
+   .custom-button-linkedin {
+    padding: 1em 2em;
+    font-size: 1em;
+    width: 80%; /* Takes 80% of its container */
+    margin-left: .25em;
+    display: inline-block;
   }
 }
 
 @media (max-width: 480px) {
-  .custom-button {
+  .custom-button-email {
     padding: 1em 2em;
     font-size: 1em;
-    width: 80%; /* Full width on mobile */
-    display: block; /* Makes it take full width */
+    width: 80%; /* Takes 80% of its container */
+    margin-left: .25em;
+    margin-top: .75em;
+    display: inline-block;
+  }
+   .custom-button-linkedin {
+    padding: 1em 2em;
+    font-size: 1em;
+    width: 80%; /* Takes 80% of its container */
+    margin-left: .25em;
+    display: inline-block;
   }
 }
 @keyframes transitionUp {
