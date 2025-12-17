@@ -7,7 +7,7 @@ body {
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#FFF8E7, #FDF3E2);
+    background-image: linear-gradient(#fffcdc, #d9a7c7);
     /*background-color: white;*/
     letter-spacing: .07em;
     animation: transitionUp .8s;
@@ -28,6 +28,7 @@ ul {
   padding: 2em;
   border-radius: 1%;
  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+ background-image: linear-gradient(#FFF8E7, #FDF3E2);
 }
 .custom-button-linkedin {
     text-decoration: none;
